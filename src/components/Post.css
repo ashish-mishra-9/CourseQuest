@@ -1,0 +1,46 @@
+/* Post.css */
+
+.post {
+    padding: 16px;
+    border-radius: 20px;
+    background: #edededaa;
+    overflow: hidden;
+    margin: 8px;
+}
+
+.bot-heading {
+    margin: 8px 0 0 16px;
+    color: #333;
+}
+
+.post-title {
+    margin: 0 0 0 0;
+}
+
+.content {
+    color: #555;
+}
+
+.info {
+    font-style: italic;
+    margin: 0;
+    color: #777;
+}
+
+.comments-section {
+    margin-top: 16px;
+}
+
+label {
+    margin-right: 8px;
+}
+
+.slide-down {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3 ease-out;
+}
+
+.slide-down.open {
+    max-height: 100%;
+}

@@ -1,0 +1,155 @@
+.container-zero {
+    background-image: url("../assets/bgimj2.jpg");
+    background-size: 600px;
+    background-attachment: fixed;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0 1% 0;
+}
+
+.container-one-top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border-radius: 20px; */
+    background: #ededede4;
+    overflow: hidden;
+    margin: 0.5% 0% 2% 0%;
+    width: 100%;
+}
+.category-rating {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+
+.left-top {
+    width: 60%;
+    padding: 5% 0 5% 0;
+    text-align: left;
+}
+.mid-top {
+    width: 12%;
+    padding: 1.6% 0 0% 0;
+    margin: 0 3% 4% 0;
+}
+.right-top {
+    width: 12%;
+    padding: 2% 0 0.8% 0;
+}
+
+.container-one-bot {
+    display: flex;
+    justify-content: center;
+    background: #ededede4;
+    margin: 2% 0% 2% 0%;
+    width: 100%;
+}
+
+.left-bot {
+    width: 20%;
+}
+.right-bot {
+    width: 70%;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    border-width: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #3f51b5;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: "Roboto";
+    padding: 6px 10px 6px 10px;
+    margin: 2.5px 0 2.5px 0;
+}
+
+button:hover {
+    background: #002c84;
+}
+
+.main-heading {
+    font-size: 270%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.sub-heading {
+    font-size: 180%;
+    color: black;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.det {
+    font-size: 120%;
+    margin-bottom: 0;
+}
+
+.slide-down {
+    max-height: 0%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.slide-down.open {
+    max-height: 100%;
+}
+
+@media (max-width: 700px) {
+    .container-one-top {
+        display: block;
+        margin: 2% 0% 2% 0%;
+        width: 100%;
+    }
+
+    .left-top {
+        width: 100%;
+        padding: 5% 0 5% 0;
+        text-align: center;
+    }
+
+    .mid-top {
+        width: 100%;
+        padding: 1.6% 0 0% 0;
+        margin: 0 3% 4.2% 0;
+    }
+
+    .right-top {
+        width: 100%;
+        padding: 2% 0 1% 0;
+    }
+
+    .container-one-bot {
+        display: block;
+        margin: 2% 0% 2% 0%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .left-bot {
+        width: 100%;
+    }
+    .right-bot {
+        width: 100%;
+    }
+    .sub-heading {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+}
