@@ -1,0 +1,73 @@
+/* LoginForm.css */
+.login-container {
+    background-image: url("../assets/imgg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    width: 35%;
+    margin-right: 5%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-user {
+    margin-top: 20px;
+}
+
+.register-link {
+    margin-left: 2px;
+}
+
+.welcome-message {
+    flex: 1;
+    text-align: center;
+    /* padding: 20px; */
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Additional styling for success, error, and loading messages */
+.success-message {
+    color: #4caf50;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+.loading-message {
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    .login-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: flex-end;
+    }
+    .form-container {
+        width: 92%;
+        margin-left: 4%;
+    }
+    .hidden-ph {
+        display: none;
+    }
+    .welcome-message {
+        margin-top: 10%;
+        display: none;
+    }
+}
